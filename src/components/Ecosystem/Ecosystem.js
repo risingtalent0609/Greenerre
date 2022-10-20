@@ -31,13 +31,13 @@ const Ecosystem = () => {
             image="marketplace.png"
           />
         </Col>
-        <Col className="mb-2">
+        {/* <Col className="mb-2">
           <EcosystemItem
             text="Coming soon"
             alink="/soon"
             image="/coming-soon.png"
           />
-        </Col>
+        </Col> */}
       </Row>
     </div>
   );

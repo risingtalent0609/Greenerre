@@ -1,4 +1,3 @@
-
 import { Routes, Route } from "react-router-dom";
 
 //import pages
@@ -12,7 +11,7 @@ import Token from "./pages/Token/Token";
 import GreenDAOlaPage from "./pages/GreenDAOla/GreenDAOla";
 import VPetsPage from "./pages/VPets/VPets";
 import GreenerMarketPage from "./pages/GreenerMarket/GreenerMarket";
-import ComingSoonPage from "./pages/ComingSoon/ComingSoon";
+// import ComingSoonPage from "./pages/ComingSoon/ComingSoon";
 
 //import components
 import Contact from "./components/Contact/Contact";
@@ -37,7 +36,7 @@ function App() {
         <Route path="/greenDAOla" element={<GreenDAOlaPage />} />
         <Route path="/vpets" element={<VPetsPage />} />
         <Route path="/market" element={<GreenerMarketPage />} />
-        <Route path="/soon" element={<ComingSoonPage />} />
+        {/* <Route path="/soon" element={<ComingSoonPage />} /> */}
       </Routes>
       <Contact />
       <Footer />
