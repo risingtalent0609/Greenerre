@@ -44,11 +44,11 @@ const Contact = () => {
             </div>
           </div>
           <div className="row align-items-end">
-            <div className="col-md-9 col-sm-12 py-4 px-5 form-item">
+            <div className="col-md-12 col-sm-12 py-4 px-5 form-item">
               <label className="contact-form-label">Message *</label> <br />
               <textarea rows={3} className="w-100" />
             </div>
-            <div className="col-md-3 col-sm-12 py-4 px-5 form-item">
+            <div className="col-sm-12 py-4 px-5 form-item">
               <button className="btn btn-submit w-100 border-0">Submit</button>
             </div>
           </div>
