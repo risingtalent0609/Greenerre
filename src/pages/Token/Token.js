@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import Ecosystem from "../../components/Ecosystem/Ecosystem";
 // import Roadmap from "../../components/Roadmap/Roadmap";
 // import Faq from "../../components/Faq/Faq";
-import Help from "../../components/Help/Help";
+// import Help from "../../components/Help/Help";
 
 const Token = () => {
   useEffect(() => {
@@ -19,7 +19,7 @@ const Token = () => {
         <Ecosystem />
         {/* <Roadmap /> */}
         {/* <Faq /> */}
-        <Help />
+        {/* <Help /> */}
       </>
     </div>
   );
