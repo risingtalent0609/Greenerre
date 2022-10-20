@@ -91,12 +91,12 @@ const HomeCarousel = () => {
           </Link>
         </Carousel.Item>
       </Carousel>
-      <Logo className="text-center logo">
+      <div className="text-center logo">
         <h3>Sustainability Made Easy</h3>
         <p>
           <img src="/site_logo.webp" alt="site logo" />
         </p>
-      </Logo>
+      </div>
     </div>
   );
 };
