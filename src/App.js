@@ -36,6 +36,13 @@ function App() {
         <Route path="/greenDAOla" element={<GreenDAOlaPage />} />
         <Route path="/vpets" element={<VPetsPage />} />
         <Route path="/market" element={<GreenerMarketPage />} />
+        <Route
+          path="/altlanteansoc"
+          component={() => {
+            window.location.href = "https://altlanteansoc.com/";
+            return null;
+          }}
+        />
         {/* <Route path="/soon" element={<ComingSoonPage />} /> */}
       </Routes>
       <Contact />
