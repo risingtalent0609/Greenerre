@@ -49,10 +49,10 @@ const HomeCarousel = () => {
             alt="Second slide"
           />
 
-          <Carousel.Caption className="text-center">
+          {/* <Carousel.Caption className="text-center">
             <h3>Sustainability Made Easy</h3>
             <img src="/site_logo.webp" alt="site logo" />
-          </Carousel.Caption>
+          </Carousel.Caption> */}
 
           <Link>
             <div className="banner-description">
@@ -74,10 +74,10 @@ const HomeCarousel = () => {
             alt="Third slide"
           />
 
-          <Carousel.Caption className="text-center">
+          {/* <Carousel.Caption className="text-center">
             <h3>Sustainability Made Easy</h3>
             <img src="/site_logo.webp" alt="site logo" />
-          </Carousel.Caption>
+          </Carousel.Caption> */}
 
           <Link>
             <div className="banner-description">
