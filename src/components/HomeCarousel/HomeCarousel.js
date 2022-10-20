@@ -94,7 +94,7 @@ const HomeCarousel = () => {
       <div className="text-center logo">
         <h3>Sustainability Made Easy</h3>
         <p>
-          <img src="/site_logo.webp" alt="site logo" />
+          <img src="/site_logo.webp" alt="site logo" style={{ height: 100 }} />
         </p>
       </div>
     </div>
