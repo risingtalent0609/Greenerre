@@ -14,15 +14,13 @@ const Ecosystem = () => {
             image="/token.png"
           />
         </Col>
-        <Col className="mb-2">
-          <Link to={"https://altlanteansoc.com/"}>
-            <EcosystemItem
-              text="Altlanteans Official Club"
-              alink="#"
-              image="/aoc.jpg"
-            />
-          </Link>
-        </Col>
+        <Link to={"https://altlanteansoc.com/"} className="mb-2">
+          <EcosystemItem
+            text="Altlanteans Official Club"
+            alink="#"
+            image="/aoc.jpg"
+          />
+        </Link>
         <Col className="mb-2">
           <EcosystemItem text="Vpets" alink="/vpets" image="/vpets.png" />
         </Col>
