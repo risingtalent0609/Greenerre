@@ -9,7 +9,6 @@ const EcosystemItem = (props) => {
         <img src={props.image} alt="item" />
         <h4 className="text-center">{props.text}</h4>
       </Link>
-      <script>console.log({props.alink})</script>
     </div>
   );
 };
