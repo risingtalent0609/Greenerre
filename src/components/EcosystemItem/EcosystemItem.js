@@ -5,7 +5,7 @@ import "./EcosystemItem.scss";
 const EcosystemItem = (props) => {
   return (
     <div className="item-control">
-      {props.type == "local" ? (
+      {props.type === "local" ? (
         <Link to={props.alink}>
           <img src={props.image} alt="item" />
           <h4 className="text-center">{props.text}</h4>
