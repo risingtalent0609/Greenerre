@@ -25,7 +25,12 @@ const Ecosystem = () => {
           />
         </Col>
         <Col className="mb-2">
-          <EcosystemItem text="Vpets" alink="/vpets" image="/vpets.png" />
+          <EcosystemItem
+            text="Vpets"
+            alink="/vpets"
+            image="/vpets.png"
+            type="local"
+          />
         </Col>
         <Col className="mb-2">
           <EcosystemItem
