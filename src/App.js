@@ -36,6 +36,7 @@ function App() {
         <Route path="/greenDAOla" element={<GreenDAOlaPage />} />
         <Route path="/vpets" element={<VPetsPage />} />
         <Route path="/market" element={<GreenerMarketPage />} />
+
         {/* <Route path="/soon" element={<ComingSoonPage />} /> */}
       </Routes>
       <Contact />
