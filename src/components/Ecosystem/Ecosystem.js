@@ -13,12 +13,14 @@ const Ecosystem = () => {
             text="GreenDAOla"
             alink="/greenDAOla"
             image="/token.png"
+            type="local"
           />
         </Col>
         <Col className="mb-2">
           <EcosystemItem
             text="Altlanteans Official Club"
-            alink="../../../altlanteansoc.com/"
+            alink="https://altlanteansoc.com/"
+            type="out"
             image="/aoc.jpg"
           />
         </Col>
@@ -30,6 +32,7 @@ const Ecosystem = () => {
             text="TheGreenerMarket"
             alink="/market"
             image="marketplace.png"
+            type="local"
           />
         </Col>
         {/* <Col className="mb-2">
